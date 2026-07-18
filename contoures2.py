@@ -29,3 +29,5 @@ cv2.imshow('canny', canny)
 cv2.imshow('draw', img)
 cv2.imshow('contoutes and hierarchy', canny)
 cv2.waitKey(0)
+
+cv2.imwrite('result.jpg', img)
